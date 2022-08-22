@@ -5,6 +5,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   text-align: center;
+  height: 100vh;
 }
 
 h1 {
@@ -31,4 +32,8 @@ button {
 
 #increment-btn {
   background: darkred;
+}
+
+#save-btn {
+  background: darkgreen;
 }
