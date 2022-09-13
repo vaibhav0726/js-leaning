@@ -15,7 +15,8 @@ let player = {
 let playerEl = document.getElementById("person-el")
 playerEl.textContent = player.name + ": $" + player.credits
 
-// Make this function return a random number between 1 and 13
+window.alert("Best Experience at 200%")
+
 function getRandomCard() {
   let ran = Math.floor(Math.random() * 13) + 1;
   if (ran === 1) return 11;
